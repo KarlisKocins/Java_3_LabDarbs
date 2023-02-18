@@ -5,9 +5,9 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 class Prece {
-    String nosaukums;
-    double cena;
-    int daudzums;
+    private String nosaukums;
+    private double cena;
+    private int daudzums;
 
     public Prece(String n, double c, int d) {
         nosaukums = n;
